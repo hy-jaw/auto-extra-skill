@@ -1,0 +1,6 @@
+{
+    "toggle_key": "numpad9",
+    "trigger_keys": ["a", "s", "d", "f", "g", "h"],
+    "extra_sequence": ["e", "q", "z"],
+    "sequence_delay": 100
+}

@@ -37,7 +37,7 @@ pip install pywin32 ctypes pillow pystray pydirectinput
 
 ## 配置说明
 
-配置文件 `keymap_config.json` 用于自定义程序行为，示例配置如下：
+配置文件 `config.json` 用于自定义程序行为，示例配置如下：
 
 
 
@@ -72,7 +72,7 @@ pip install pywin32 ctypes pillow pystray pydirectinput
 
 
 
-1.  确保配置文件 `keymap_config.json` 已正确设置（或使用默认配置）
+1.  确保配置文件 `config.json` 已正确设置（或使用默认配置）
 
 2.  运行程序：
 
@@ -114,4 +114,5 @@ python auto_extra_skill.py
 2.  **按键无响应**：检查程序是否处于激活状态，触发键是否正确配置
 
 3.  **出现无限循环**：程序已内置防无限循环机制，若仍出现问题，请检查配置确保`trigger_keys`与`extra_sequence`没有重叠
+
 
